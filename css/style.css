@@ -252,6 +252,7 @@ input[type="radio"]:checked + label::after{
 	width:25rem; 
 	position:absolute;
 	top:7rem;
+	left:5rem;
 	background-color:#fff;
 	color:#000;
 	font-size:0.8rem;
@@ -260,16 +261,12 @@ input[type="radio"]:checked + label::after{
 	border-radius:2px;
 	opacity:0;    
 }
-.chips-light{
-	left:0;
-	margin-left:-125px;
-}
-.chips-medium{
-	left:5rem;
-}
 .light:hover +.chips-light{
 	opacity:1; 
 }
 .medium:hover +.chips-medium{
+	opacity:1; 
+} 
+.full:hover +.chips-full{
 	opacity:1; 
 }

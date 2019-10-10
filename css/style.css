@@ -146,7 +146,7 @@ button:hover{
 	width:100%; 
 }
 .calculate-the_cost{
-	background: center no-repeat/cover 
+	background: no-repeat center/cover  
 	url(../img/calculate_the_cost/calculate_the_cost_bg.jpg);
 	padding:4rem 0; 
 }

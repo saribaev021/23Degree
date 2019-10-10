@@ -10,3 +10,5 @@ document.querySelector('.floor-area').onclick = function(){
   middlePrice = 4850;
   document.querySelector('#middle-price_property').innerHTML =formatter.format(+select*middlePrice)+' ТГ';
 }
+let s = document.querySelector('.full').value;
+console.log(s)

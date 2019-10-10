@@ -1,0 +1,247 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	padding:0;
+	margin:0; 
+}
+.container{
+	margin:0 auto;
+}
+header{
+	background:no-repeat center/cover url(../img/header/header-bg.jpg);
+}
+button:hover{
+	cursor:pointer; 
+}
+.header-nav{
+	display: flex;
+	margin:0 -15px;
+}
+.logo{
+	width: calc(100% / 12 *8 - 30px);
+	margin:15px; 
+}
+.phone-header{
+	display: flex;
+	align-items: center;
+	width:calc(100%/12 *3 - 30px);
+	color: #fff;
+	margin:15px;
+}
+.phone-header p{
+	font-size:12px;
+	color: #fff;
+	margin-left:1rem; 
+}
+.phone{
+	font-size: 21px;
+	text-decoration:none; 
+	color:#fff; 
+}
+
+.menu-btn{
+	display: flex;
+	justify-content:center; 
+	flex-direction:column;
+	align-items: center; 
+	width:calc(100%/12*1 - 30px);
+	margin-top:0.5rem; 
+	border:none; 
+	background:transparent; 
+	text-transform: uppercase;
+	color:#fff;
+	font-size:12px; 
+}
+.menu-btn:focus{
+	outline:none;
+	opacity: 0.5 
+}
+.menu-btn_line{
+	width:4.2rem;
+	height:0.3rem; 
+	margin-bottom:0.5rem; 
+	background-color:#fff;   
+}
+.header-content{
+	text-align:center; 
+	color:#fff;
+}
+.header-title{
+	font-size:3.3rem;
+}
+.header-content p{
+	font-size:18px; 
+}
+.form{
+	display:flex; 
+	flex-wrap: wrap;
+	justify-content:center;
+}
+.form-input{
+	display:block;
+	width:calc(100%/12*3.4 - 1rem);
+	margin:4rem 0.5rem 2rem 0.5rem;
+	padding:1rem;
+	border:none;
+	border-radius:2rem;   
+}
+.button{
+	display:block;
+	width:calc(100%/12*3);
+	margin:1rem 0;
+	padding:1rem;
+	border:none;
+	border-radius:2rem; 
+	background-color:#19b5fe;
+	color:#fff;
+}
+.mouse button{ 
+	background: no-repeat center url(../img/header/mouse.png);
+	border:none;
+	margin:2rem;
+	padding:2rem;  
+}
+.mouse button:focus{
+	outline:none; 
+}
+.section-header{
+	margin:1rem 0;
+	color:#363636;
+	font-size:2.2rem;
+	text-align:center;   
+}
+.section-header_white{
+	color:#fff;
+}
+.section-header h2::after{
+	display:block; 
+	width:50rem;
+	height:1px;	
+	content:""; 
+	margin:1rem auto;
+	background-color:#18ACF2;  
+}
+.section-header_white h2::after{
+	background-color:#fff;
+}
+.services{
+	padding-bottom:2rem; 
+}
+.services .row{
+	display:flex;
+	align-items: center;
+	flex-wrap:wrap;
+	margin:0 -1.5rem;  
+}
+.design{
+	width:calc(100%/12*6 - 3rem);
+	margin:0 1.5rem; 
+}
+.design h3{
+	color:#18ACF2; 
+}
+.design img{
+	width:100%; 
+}
+.calculate-the_cost{
+	background: center no-repeat/cover 
+	url(../img/calculate_the_cost/calculate_the_cost_bg.jpg);
+	padding:0.5rem 0; 
+}
+.section-header_white p{
+	margin-top:-2rem;
+	font-size:1.8rem; 
+}
+.floor-area{
+	width:35rem;
+	height:10rem; 
+	color:#fff;
+	border:1px solid #fff;
+	padding:1rem 2rem; 
+	position:relative;
+	margin-bottom:1rem;
+	z-index:1;   
+}
+
+.floor-area::after{
+	position:absolute;
+	content: '';
+    background-color: #fff;
+    height:5px;
+    width: 30rem;
+    opacity: 0.50;
+    top:7rem;
+    z-index:-1; 
+}
+input[type="radio"]{
+	display:none; 
+}
+.label {
+    position: absolute;
+    top:4.5rem;
+    left:2rem; 
+    color: #fff;
+}
+.label::after{
+	content:'';
+	display:inline-block;
+	width:1rem;
+	height:1rem;
+	position:absolute;
+	left:2rem;
+	top:2.1rem; 
+	background-color:#fff;
+	border-radius:50%;  
+	transition:all 1s; 
+	cursor:pointer;    
+}
+ .label:nth-child(5){
+	left:10rem;
+}
+.label:nth-child(7){
+	left:20rem;
+}
+.label:nth-child(9){
+	left:28rem;
+}
+.lb100::after{
+	left:0;
+}
+.lb500::after{
+	left:3rem;
+}
+input[type="radio"]:checked + label::after{
+	background-image:url(../img/calculate_the_cost/circle.png);
+	background-size: 100%; 
+}
+.select-package{
+	width:35rem;  
+	padding:1rem 2rem;
+	border:1px solid #fff;
+	color:#fff;
+}
+.select-package_btn{
+	display:inline-block;
+	width:145px; 
+	padding:0.5rem 0;
+	margin:0 1rem 0 0; 
+	text-align:center;
+	color:#fff;
+	background:transparent;
+	border:1px solid #fff;
+	border-radius:5px;    
+}.calc{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-top:5rem;   
+}
+.total-price{
+	text-align:center;
+	color:#fff; 
+}
+.total-price_btn{
+	width:100%; 
+}

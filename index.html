@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>23Degree</title>
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-nav">
+				<div class="logo">
+					<img src="img/header/logo.png" alt="23Degree">
+				</div>
+				<div class="phone-header">
+					<img src="img/header/phone.png" alt="phone">
+					<p>Есть вопросы? Звоните! <br><a class="phone" href="#">8 /800/ 259 09 36</a></p>
+				</div>
+				<button class="menu-btn">
+					<span class="menu-btn_line"></span>
+					<span class="menu-btn_line"></span>
+					<span class="menu-btn_line"></span>
+					<span class="menu-span">меню</span>
+				</button>
+			</div><!--header-nav-->
+			<div class="header-content">
+				<h1 class="header-title">Услуги по 3D моделированию<br>полный спектр услуг</h1>
+				<p>Оставьте заявку сейчас и получите дизайн интерьера 25кв<sup>2</sup> бесплатно!*</p>
+				<form class="form" action="#">
+					<input class="form-input" type="text" placeholder="Ваше имя">
+					<input class="form-input" type="text" placeholder="E-mail">
+					<input class="form-input" type="text" placeholder="Номер телефона">
+					<button class="button" type="submit">Оставьте заявку!</button>
+				</form>
+				<span>*Мы гарантируем конфидициальность передаваемых данных</span>
+				<div class="mouse"><button></button></div>
+			</div>
+		</div>
+	</header>
+	<section class="services">
+		<div class="container">
+			<div class="section-header">
+				<h2>Наши услуги</h2>
+			</div>
+			<div class="row">
+				<div class="design">
+					<h3>Дизайн интерьера</h3>
+					<p>Услуга, направленная на разработку интерьеров помещений с целью обеспечить удобство и эстетически приятное ощущение у человека при нахождении в помещении</p>
+					<button class="button">Оставить заявку</button>
+				</div>
+				<div class="design">
+					<img src="img/services/1.jpg" alt="">
+				</div>
+				<div class="design">
+					<img src="img/services/2.jpg" alt="">
+				</div>
+				<div class="design">
+					<h3>Дизайн экстерьера</h3>
+					<p>Услуга, направленная на разработку дизайна прилегающих элементов зданий, а также дизайн самих зданий, позволяющая обеспечить удобство людей при нахождении на территории</p>
+				</div>
+				<div class="design">
+					<h3>Визуализация</h3>
+					<p>Услуга, направленная на разработку дизайна прилегающих элементов зданий, а также дизайн самих зданий, позволяющая обеспечить удобство людей при нахождении на территории</p>
+				</div>
+				<div class="design">
+					<img src="img/services/3.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="calculate-the_cost">
+		<div class="container">
+			<div class="row">
+				<div class="section-header section-header_white">
+					<h2>Рассчитать стоимость</h2>
+					<p>Рассчитайте предварительную стоимость разработки интерьера</p>
+				</div>
+				<div class="calc">
+					<div class="wrap">
+						<div class="floor-area">
+							<p>Площадь помещения:</p>
+							<input type="radio" checked id='a100' name="area" value="100">
+							<label class="label lb100" for="a100">100м<sup>2</sup></label>
+							<input type="radio" id='a10_000' name="area" value="10 000">
+							<label class="label" for="a10_000">10 000м<sup>2</sup></label>
+							<input type="radio" id='a250_000' name="area">
+							<label class="label" for="a250_000">250 000м<sup>2</sup></label>
+							<input type="radio" id='a500_000' name="area">
+							<label class="label lb500" for="a500_000">500 000м<sup>2</sup></label>
+						</div>
+						<div class="select-package">
+							<p>Выбери пакет:</p>
+							<button class="select-package_btn ligth"><span>Light</span></button>
+							<button class="select-package_btn medium"><span>Medium</span></button>
+							<button class="select-package_btn full"><span>Full</span></button>
+						</div>
+					</div>
+					<div class="total-price">
+						<p>Площадь помещения:</p>
+						<p id="floor-area">1 000м<sup>2</sup></p>
+						<p>средняя цена м<sup>2</sup>:</p>
+						<p id="middle-price">4 850 ТГ</p>
+						<p>Средняя цена объекта:</p>
+						<p id="middle-price_property">48 000 ТГ</p>
+						<button class="button total-price_btn">Получить консультацию</button>
+						<span>или позвоните по телефону:</span>
+						<p><a class="phone" href="#">+7 727 388 71 77</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

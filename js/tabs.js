@@ -8,10 +8,10 @@ function tabsMenu(){
     menuItem.onclick = function(){
       for(let j = 0; j < menuItems.length; j++){
         menuItems[j].classList.remove('tabs-menu_focus');
-        contentItems[j].classList.remove('active');
+        contentItems[j].classList.remove('tab-active');
       }
       menuItem.classList.add('tabs-menu_focus')
-      contentItem.classList.add('active');
+      contentItem.classList.add('tab-active');
     }  
   }  
 }

@@ -299,6 +299,37 @@ input[type="radio"]:checked + label::after{
 	opacity:1;
 	transition:all 1s;  
 }
-/* .chips-medium{
-	opacity:1; 
-} */
+.portfolio .tabs-menu{
+	display:flex;
+	justify-content:center;
+	width:50rem;
+	margin:0 auto;
+	padding:0.5rem 0;
+	border:1px solid #19b5fe;
+	border-radius:1.5rem;    
+}
+.tabs-menu__item{
+	position:relative; 
+	padding:0.5rem;
+	font-size:1.3rem;
+	color:#19b5fe;
+	list-style:none;
+	cursor:pointer; 
+}
+.tabs-menu_focus{
+	color:#fff;
+	background-color:#19b5fe;
+	border-radius:0.5rem; 
+}
+.tabs-content__item{
+	display:none; 
+}
+.active{
+	display:flex;
+	justify-content:space-between;	
+	flex-wrap:wrap;    
+}
+.tabs-content__item img{
+	margin:1rem 0;
+	flex-basis:32%; 
+}

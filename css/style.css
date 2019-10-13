@@ -129,15 +129,22 @@ button:hover{
 .services{
 	padding-bottom:2rem; 
 }
-.services .row{
+.services .row,
+.interaction-process .row{
 	display:flex;
 	align-items: center;
 	flex-wrap:wrap;
 	margin:0 -1.5rem;  
 }
-.design{
+.design,
+.process{
 	width:calc(100%/12*6 - 3rem);
 	margin:0 1.5rem; 
+}
+.interaction-process .row,
+.process{
+	text-align:center; 
+	margin:0;
 }
 .design h3{
 	color:#18ACF2; 
@@ -378,4 +385,37 @@ input[type="radio"]:checked + label::after{
 }
  .slider-hide{
 	display:none; 
-} 
+}
+section .advantages{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;   
+}
+.advantage{
+	flex-basis:25%;
+	padding:0 1rem; 
+	text-align:center; 
+	position:relative;  
+}
+.advantage .icon{
+	height:3rem;
+	margin-bottom:1rem;   
+}
+.advantage::after{
+	width:6rem;
+	height:1px;
+	content:'';
+	position:absolute;
+	top:45%;
+	left:6.3rem;
+	background-color:#18ACF2; 
+}
+/* .interaction-process .row{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;    
+}
+.process{
+
+} */

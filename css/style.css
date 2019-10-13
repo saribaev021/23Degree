@@ -143,6 +143,7 @@ button:hover{
 }
 .interaction-process .row,
 .process{
+	font-weight:300; 
 	text-align:center; 
 	margin:0;
 }
@@ -386,10 +387,13 @@ input[type="radio"]:checked + label::after{
  .slider-hide{
 	display:none; 
 }
+.why-we_the_best{
+	background-color:#f5f9fa;	   
+}
 section .advantages{
 	display:flex;
 	justify-content:center;
-	flex-wrap:wrap;   
+	flex-wrap:wrap;	   
 }
 .advantage{
 	flex-basis:25%;

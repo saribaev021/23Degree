@@ -69,6 +69,7 @@ function slider(currentImageIndex){
 	 		document.querySelectorAll('.show-prev_slide').forEach(function(element){
 	 			element.disabled = true;
 				element.style.opacity="0.5"
+				element.onclick = showPrevClick;
 			});
 	    }
 	    else if(currentImageIndex == (slide.length - 1)){
@@ -80,6 +81,7 @@ function slider(currentImageIndex){
 	    	document.querySelectorAll('.show-next_slide').forEach(function(element){
 				element.disabled = true;
 				element.style.opacity="0.5"
+				element.onclick = showNextClick;
 			});	
 	    }
 	    else{

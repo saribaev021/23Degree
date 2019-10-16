@@ -11,6 +11,7 @@ body{
 }
 header{
 	background:no-repeat center/cover url(../img/header/header-bg.jpg);
+	background-attachment: fixed;
 }
 button:hover{
 	cursor:pointer; 
@@ -143,6 +144,7 @@ button:hover{
 }
 .interaction-process .row,
 .process{
+	justify-content:center; 
 	font-weight:300; 
 	text-align:center; 
 	margin:0;
@@ -157,6 +159,7 @@ button:hover{
 	background: no-repeat center/cover  
 	url(../img/calculate_the_cost/calculate_the_cost_bg.jpg);
 	padding:4rem 0; 
+	background-attachment: fixed;
 }
 .section-header_white p{
 	margin-top:-2rem;
@@ -337,9 +340,15 @@ input[type="radio"]:checked + label::after{
 	justify-content:space-between;	
 	flex-wrap:wrap;    
 }
-.tabs-content__item img{
+.tabs-content__item .show-slider{
 	margin:1rem 0;
 	flex-basis:32%; 
+}
+.tabs-content__item .slide,
+.slide2,
+.slide3,
+.slide4{
+	width:100%;  
 }
 .slider-wrap{
 	display:flex;
@@ -357,7 +366,10 @@ input[type="radio"]:checked + label::after{
 	width:50rem;  
 	text-align:center;
 }
-.slide-image{
+.slide-image,
+.slide-image2,
+.slide-image3,
+.slide-image4{
 	width:100%; 
 }
 .show-prev_slide,
@@ -399,27 +411,9 @@ section .advantages{
 	flex-basis:25%;
 	padding:0 1rem; 
 	text-align:center; 
-	position:relative;  
 }
 .advantage .icon{
-	height:3rem;
-	margin-bottom:1rem;   
+	padding:2rem 3rem;  
+	border-bottom:1px solid #19b5fe; 
+	position:relative; 
 }
-.advantage::after{
-	width:6rem;
-	height:1px;
-	content:'';
-	position:absolute;
-	top:45%;
-	left:6.3rem;
-	background-color:#18ACF2; 
-}
-/* .interaction-process .row{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-wrap:wrap;    
-}
-.process{
-
-} */

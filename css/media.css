@@ -204,6 +204,17 @@
 		width:98px;
 		margin-right:0;  
 	}
+	.chips-medium, .chips-light, .chips-full{
+		width:20rem;
+		left:1rem;
+	}
+	.chips-medium, .chips-light::after{
+		bottom:7rem; 
+	}
+/* 	.chips-full::after {
+    	right: 3rem;
+    	bottom:6rem 
+} */
 	.tabs-menu__item{
 		font-size:8px; 
 	}

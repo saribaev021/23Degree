@@ -16,6 +16,14 @@ header{
 button:hover{
 	cursor:pointer; 
 }
+a{
+	text-decoration:none;
+	color:#fff;
+	cursor:pointer;  
+}
+a:hover{
+	text-decoration:underline; 
+}
 .header-nav{
 	display: flex;
 	margin:0 -15px;
@@ -38,8 +46,6 @@ button:hover{
 }
 .phone{
 	font-size: 21px;
-	text-decoration:none; 
-	color:#fff; 
 }
 
 .menu-btn{
@@ -81,8 +87,7 @@ button:hover{
 	justify-content:center;
 }
 .form-input{
-	display:block;
-	width:calc(100%/12*3.4 - 1rem);
+	flex-basis:30%; 
 	margin:4rem 0.5rem 2rem 0.5rem;
 	padding:1rem;
 	border:none;
@@ -90,7 +95,7 @@ button:hover{
 }
 .button{
 	display:block;
-	width:calc(100%/12*3);
+	width:30%;
 	margin:1rem 0;
 	padding:1rem;
 	border:none;
@@ -349,6 +354,7 @@ input[type="radio"]:checked + label::after{
 .slide3,
 .slide4{
 	width:100%;  
+	cursor:pointer; 
 }
 .slider-wrap{
 	display:flex;
@@ -416,4 +422,212 @@ section .advantages{
 	padding:2rem 3rem;  
 	border-bottom:1px solid #19b5fe; 
 	position:relative; 
+}
+section{
+	padding-bottom:4rem;
+}
+.companies-hor_block img{
+	display:block; 
+	margin:1rem auto; 	
+}
+.slick-active{
+	outline:none;
+}
+.arrow{  
+  top:50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height:2rem;
+  border:none; 
+   
+}
+.prev{  
+  left:0;
+  background: url(../img/leftArrow.svg) center no-repeat;
+  background-size:70%;
+}
+.next{
+  right:0;
+  background: url(../img/rightArrow.svg) center no-repeat;
+  background-size:70%;
+}
+.our-team .row{
+	display:flex;
+	justify-content:space-between;
+	align-items:center; 
+	flex-wrap:wrap;   
+}
+.team{
+	width:10rem;
+	height:10rem; 
+	margin:0 auto;
+	border-radius:50%; 
+	background:no-repeat center/cover  
+	url(../img/our-team/team-1.jpg); 
+}
+.teammate{
+	margin:2rem 0;
+	flex-basis:33%; 
+	text-align:center; 
+}
+.teammate h3{
+	color:#19b5fe; 
+}
+.teammate-1{
+	background:no-repeat center/cover  
+	url(../img/our-team/team-1.jpg);  
+}
+.teammate-2{
+	background:no-repeat center/cover  
+	url(../img/our-team/teammate-2.jpg);  
+}
+.teammate-3{
+	background:no-repeat center/cover  
+	url(../img/our-team/teammate-6.jpg);  
+}
+.teammate-4{
+	background:no-repeat center/cover  
+	url(../img/our-team/teammate-3.jpg);  
+}
+.teammate-5{
+	background:no-repeat center/cover  
+	url(../img/our-team/teammate-4.jpg);  
+}
+.teammate-6{
+	background:no-repeat center/cover  
+	url(../img/our-team/teammate-5.jpg);  
+}
+.quote{ 
+	text-align:center;
+	position:relative; 
+}
+.quote p{
+	width:60%;
+	margin:auto; 
+	margin-top:1rem; 
+}
+.quotes-1,
+.quotes-2{
+	position:absolute;
+}
+.quotes-1{
+	left:0;
+	top:0; 
+}
+.quotes-2{
+	bottom:0;
+	right:0;
+}
+.blog .row{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;   
+}
+.minimalism,
+.provence{
+	text-align:center; 
+}
+.minimalism p,
+.provence p{
+	padding:1rem 4rem; 
+}
+.minimalism p:hover,
+.provence p:hover{
+	color:#19b5fe;
+	text-decoration:underline;
+}
+.minimalism img,
+.provence img{
+	width:90%;
+	height:25rem;      
+}
+.have-any-questions{
+	background:no-repeat center/cover  
+	url(../img/have-any-questions/have-any-questions-bg.jpg);  
+	padding-top:1rem; 
+	background-attachment: fixed;
+}
+.have-any-questions .row{
+	display:flex;
+	justify-content:space-between; 
+	align-items:center; 
+}
+.form-footer{
+	flex-basis:60%;
+	justify-content:space-between;  
+}
+.form-input-footer{
+	display:block;  
+	margin:1rem 0;
+	border:none;
+	border-radius:5px;
+	padding:1rem 1.5rem;  
+}
+.form-textarea{
+	width:100% ;
+	padding:15px 5px; 
+	border-radius:5px;  
+}
+.form-btn{
+	display:block;
+	margin:1rem auto; 
+}
+
+.contacts{
+	flex-basis:35%;
+}
+.contact-phone,
+.contact-whatsapp,
+.contact-email,
+.contact-skype,
+.contact-telegram{
+	display:flex;
+	align-items:center;   
+	margin-bottom:1.5rem;
+}
+.contacts a{
+	margin-left:5px;
+}
+.map{
+	padding:0; 
+}
+iframe{
+	width:100%;
+	height:30rem; 
+	border:0;
+}
+footer{
+	background-color:#24241f; 
+	color:#fff; 
+	padding-top:1rem;
+}
+footer .row{
+	display:flex;
+	justify-content:space-between;
+	align-items:center; 
+}
+.block{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;   
+}
+.block a{
+	flex-basis:33%;
+	margin-top:1rem;
+}
+.social-networks img{
+	margin-right:2rem; 
+}
+hr{
+	border: none;
+    color: #50504c;
+    background-color:#50504c;
+    height: 1px;
+    margin:2rem 0; 
+}
+.block2{
+	display:flex;
+	align-items:center;  
 }

@@ -1,5 +1,161 @@
+
+@media(min-width: 768px){
+	.container{
+		width:720px; 
+	}
+}
+@media(min-width: 992px){
+	.container{
+		width:960px; 
+	}
+}
 @media(min-width: 1200px){
 	.container{
 		width:1170px; 
 	}
+}
+@media(max-width: 1199px){
+	.form-input-footer{
+		width:190px; 
+	}
+	.minimalism img,
+	.provence img{
+		width:400px; 
+	}
+}
+@media(max-width: 991px){
+	.logo{
+		width:calc(100% / 12 *6 - 30px); 
+	}
+	.phone-header{
+		width:calc(100% / 12 *4 - 30px);
+	}
+	.menu-btn{
+		width:calc(100% / 12 *2 - 30px); 
+	}
+	.header-title {
+    font-size: 2.3rem;
+	}
+	.button{
+		width:40%; 
+	}
+	.total-price_btn {
+   		width: 100%;
+	}
+	.section-header{
+		font-size:1.8rem; 
+	}
+	.section-header p{
+		font-size:1.4rem; 
+	}
+	.floor-area,
+	.select-package{
+		width:30rem; 
+		padding:1rem 1rem;
+	}
+	.floor-area::after{
+		width:26rem; 
+	}
+	.label{
+		top:4.6rem;
+		left:1rem;
+	}
+	.label::after{
+		width:0.8rem;
+		height:0.8rem;  
+	}
+	.label:nth-child(5) {
+    	left: 8rem;
+	}
+	.label:nth-child(7) {
+    	left: 16rem;
+	}
+	.label:nth-child(9) {
+    	left: 23.5rem;
+	}
+	.select-package_btn{
+		width:110px;
+		margin-right:35px;  
+	}
+	.chips-full::after{
+		right:7rem; 
+	}
+	.portfolio .tabs-menu{
+		width:100%; 
+	}
+	.tabs-menu__item{
+		font-size:1rem; 
+	}
+	.advantage{
+		padding:0 5px;
+		font-size:12px; 
+	} 
+	.quote{
+		font-size:13px; 
+	}
+	.form-footer{
+		flex-basis:65%;
+	}
+	.form-input-footer{
+		width:150px; 
+	}
+	.contacts {
+   		flex-basis: 30%;
+	}
+	footer{
+		font-size:12px; 
+	}
+}
+@media(max-width: 400px){
+	.container{
+		width:100%;
+		margin:0;
+	}
+	.logo{
+		flex-basis:20%;
+	}
+	.logo img{
+		width:80px; 
+	}
+	.phone-header{
+		width:0;
+		flex-basis:40%;
+
+	}
+	.phone-header p{
+		font-size:9px; 
+	}
+	.phone{
+		font-size:12px; 
+	}
+	.menu-btn{
+		width:0;
+		flex-basis:15%; 
+	}
+	.menu-btn_line{
+		width:3.2rem;
+	}
+	.header-title{
+		font-size:1.3rem; 
+	}
+	.header-content p,span{
+		font-size:10px; 
+	}
+	.form{
+		justify-content:stretch;
+	}
+	.form-input{
+		width:105px;
+		margin:5px;
+		padding:5px;
+		font-size:10px;   
+	}
+	.form-btn{
+		display:block;
+		width:50%; 
+	    margin:1rem auto; 
+	    padding:10px;
+
+	}
+
 }

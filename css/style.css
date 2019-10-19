@@ -538,11 +538,7 @@ section{
 	color:#19b5fe;
 	text-decoration:underline;
 }
-.minimalism img,
-.provence img{
-	width:90%;
-	height:25rem;      
-}
+
 .have-any-questions{
 	background:no-repeat center/cover  
 	url(../img/have-any-questions/have-any-questions-bg.jpg);  
@@ -618,7 +614,7 @@ footer .row{
 	margin-top:1rem;
 }
 .social-networks img{
-	margin-right:2rem; 
+	margin-right:1rem; 
 }
 hr{
 	border: none;

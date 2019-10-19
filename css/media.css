@@ -150,6 +150,9 @@
 		padding:5px;
 		font-size:10px;   
 	}
+	.button{
+		width:100%; 
+	}
 	.form-btn{
 		display:block;
 		width:50%; 
@@ -157,5 +160,13 @@
 	    padding:10px;
 
 	}
-
+	.section-header{
+		font-size:1rem; 
+	}
+	.section-header h2::after{
+		width:80% 
+	}
+	.design p{
+		font-size:5px;
+	}
 }
